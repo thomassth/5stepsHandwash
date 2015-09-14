@@ -1,4 +1,4 @@
-@media all and (min-width: 500px) {
+@media all and (min-width: 550px) {
 h1{
     font-size: 50px;
 	padding:2.5px;
@@ -10,9 +10,10 @@ h2{
 	height: 60px;
 }
 }
-@media all and (max-width: 499px) and (min-width:0px){
+
+@media all and (max-width: 549px) and (min-width: 50px) {
 h1{
-    font-size: 10vw;
+    font-size: 8vw;
 	padding:0.5vw;
   }
 h2{
@@ -22,9 +23,6 @@ h2{
 	height:10vw;
 }
 }
-
-
-
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	margin:0;
@@ -40,7 +38,6 @@ h1, h2{
 
 h1{
 	text-align: center;
-	white-space: nowrap;
 }
 
 a{
@@ -63,7 +60,6 @@ iframe{
 	color: white;
 	background-color: #D32F2F;
 	z-index: 1;
-	white-space: nowrap;
 }
 
 .headSpace{
