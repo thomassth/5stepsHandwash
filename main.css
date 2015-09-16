@@ -14,11 +14,19 @@ h2{
 	width: 700px;
 	margin: 1rem auto;
 }
+.container{
+	width:650px;
+	margin: 1rem auto;
+	padding:0.5rem;
+}
+.container img{
+	height:60px;
+}
 }
 
 @media all and (max-width: 699px) and (min-width: 50px) {
 h1{
-    font-size: 8vw;
+    font-size: 7vw;
 	padding:0.5vw;
   }
 h2{
@@ -30,6 +38,13 @@ h2{
 .video-container {
 	padding-top: 70%;
 	margin: 1rem;
+}
+.container{
+	margin: 1rem;
+	padding:0.5rem;
+}
+.container img{
+	height:9vw;
 }
 }
 body{
@@ -57,6 +72,16 @@ p{
 	margin:1rem
 }
 
+.container p{
+	margin:0
+}
+
+img{
+	vertical-align: text-top;
+	float:left;
+	width:auto;
+}
+
 iframe{
 	overflow:hidden;
 	border-width: 0;
@@ -80,8 +105,6 @@ iframe{
 }
 
 .container{
-	margin: 1rem;
-	padding:0.5rem;
 	background-color: white;
 	box-shadow: 0px 0px 5px #888888;
 }
@@ -106,6 +129,10 @@ iframe{
 	color:inherit;
 	background-color: darkred;
 	height:100%;
+}
+
+.highlight{
+	background-color: yellow
 }
 
 #bottomPic{
