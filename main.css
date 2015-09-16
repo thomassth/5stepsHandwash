@@ -20,7 +20,7 @@ h2{
 	padding:0.5rem;
 }
 .container img{
-	height:60px;
+	height:40px;
 }
 }
 
@@ -44,7 +44,7 @@ h2{
 	padding:0.5rem;
 }
 .container img{
-	height:9vw;
+	height:6.5vw;
 }
 }
 body{
@@ -69,7 +69,8 @@ a{
 }
 
 p{
-	margin:1rem
+	margin:1rem;
+	line-height: 1.5
 }
 
 .container p{
