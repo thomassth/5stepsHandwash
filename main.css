@@ -1,5 +1,5 @@
 /*Desktop dimensions*/
-@media all and (min-width: 700px) {
+@media all and (min-width: 800px) {
 h1{
     font-size: 50px;
 	padding:2.5px;
@@ -13,13 +13,17 @@ p, ol{
 .headSpace{
 	height: 60px;
 }
+.card{
+	width:400px;
+	margin:1rem auto
+}
 .video-container {
 	height: 500px;
 	width: 700px;
 	margin: 1rem auto;
 }
 .container,.space-container{
-	width:650px;
+	width:800px;
 	margin: 1rem auto;
 }
 .container img{
@@ -27,7 +31,7 @@ p, ol{
 }
 }
 /*Mobile dimensions*/
-@media all and (max-width: 699px) and (min-width: 50px) {
+@media all and (max-width: 799px) and (min-width: 50px) {
 h1{
     font-size: 7vw;
 	padding:0.5vw;
@@ -47,6 +51,9 @@ p, ol{
 }
 .container,.space-container{
 	margin: 1rem;
+}
+.card{
+	margin:1rem
 }
 .container img{
 	height:6.5vw;
@@ -96,20 +103,22 @@ a{
 }
 
 p{
-	padding:1rem 0rem;
+	padding:0rem;
 	line-height: 1.5;
 }
 
-.container p{
+.container p, .card p{
 	margin:0
 }
 
-img{
+.container img{
 	vertical-align: text-top;
 	float:left;
 	width:auto;
 }
-
+.card img{
+	width: 100%;
+}
 iframe{
 	overflow:hidden;
 	border-width: 0;
@@ -133,6 +142,12 @@ header {
 }
 
 .container{
+	background-color: white;
+	box-shadow: 0px 0px 5px #888888;
+	padding:0.5rem;
+}
+
+.card{
 	background-color: white;
 	box-shadow: 0px 0px 5px #888888;
 	padding:0.5rem;
