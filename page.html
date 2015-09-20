@@ -4,11 +4,12 @@
 	<meta charset="utf-8">
 	<title>Sample page</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="score.js"></script>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
 			rel="stylesheet">
 </head>
-<body  class="gradient-pattern">
+<body  class="gradient-pattern" onload="checkCookie()">
 	<!-- Google Tag Manager -->
 	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PVGBZD"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -25,5 +26,6 @@
 		<h1 class="title">Sample page</h1>
 	</header>
 	<div class="headSpace"></div>
+	<h1 id="demo" onclick="clickScore()">WHAT</h1>
 </body>
 </html>
