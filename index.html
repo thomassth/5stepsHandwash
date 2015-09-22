@@ -3,10 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<title>洗手5部曲 網上溫習平台</title>
+    <script src="score.js"></script>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" tyh2e="text/css" href="main.css">
 </head>
-<body class="gradient-pattern viewport">
+<body class="gradient-pattern viewport"   onload="showScore()">
 	<!-- Google Tag Manager -->
 	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PVGBZD"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -32,8 +33,9 @@
 		<div class="container"><h2><a href="game.html">
 			小遊戲</a></h2></div>
         <div class="container">
-            <h2>
-
+			<h2>
+				現時分數：
+			<span id="show"">???</span>
             </h2>
         </div>
 			<!--[if lte IE 10]>

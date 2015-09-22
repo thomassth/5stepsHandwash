@@ -48,3 +48,8 @@ function addScore(part) {
     setCookie(part,date,365);
     document.getElementById("demo").innerHTML = "記得明天再來喔!";
 }
+
+function showScore(){
+    var now = getCookie("score");
+    document.getElementById("show").innerHTML = now;
+    }
