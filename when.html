@@ -1,14 +1,15 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>什麼時候要洗手?</title>
+    <script src="score.js"></script>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
 			rel="stylesheet">
 </head>
-<body  class="gradient-pattern">
+<body  class="gradient-pattern" onload="checkCookie()">
 	<!-- Google Tag Manager -->
 	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PVGBZD"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -36,5 +37,8 @@
 	<div class="container"><h2>在觸摸過公共物件後要洗手。</h2>
 		<p>例如電梯扶手、升降機按鈕及門柄後要洗手。
 			這些地方由於多人接觸，容易積聚細菌。</p></div>
+    <div class="space-container">
+        <h1 id="demo" onclick="clickScore('When')">✓</h1>
+    </div>
 </body>
 </html>

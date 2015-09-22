@@ -66,12 +66,12 @@ footer{
 }
 }
 /*Universal dimensions*/
-body{
-	font-family: Arial, Helvetica, sans-serif;
-	margin:0;
-	-webkit-margin:0;
-	padding:0;
-	background-color: #fafafa;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-margin: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
 }
 
 .viewport{
@@ -95,8 +95,8 @@ body{
 }
 
 h1, h2{
-	-webkit-margin-before: 0px;
-	-webkit-margin-after: 0px;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
 	margin: 0;
 }
 
@@ -109,7 +109,7 @@ a{
 }
 
 p{
-	padding:0rem;
+	padding:0;
 	line-height: 1.5;
 }
 
@@ -135,7 +135,7 @@ iframe{
 header {
 	position:fixed;
 	width:100%;
-	top:0px;
+	top:0;
 	color: white;
 	background-color: #D32F2F;
 	z-index: 1;
@@ -149,13 +149,13 @@ header {
 
 .container{
 	background-color: white;
-	box-shadow: 0px 0px 5px #888888;
+	box-shadow: 0 0 5px #888888;
 	padding:0.5rem;
 }
 
 .card{
 	background-color: white;
-	box-shadow: 0px 0px 5px #888888;
+	box-shadow: 0 0 5px #888888;
 	padding:0.5rem;
 }
 
@@ -168,7 +168,7 @@ header {
 .video-container {
 	position: relative;
 	overflow: hidden;
-	box-shadow: 0px 0px 5px #888888;
+	box-shadow: 0 0 5px #888888;
 	z-index: 0
 }
 
@@ -200,25 +200,28 @@ ol.num{
 }
 
 .gradient-pattern {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  /*width: 320px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    /*width: 320px;
   height: 320px;
   border: none;
   color: rgba(255,255,255,1);*/
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  background: -webkit-linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), -webkit-linear-gradient(0deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1,196,247,1);
-  background: -moz-linear-gradient(0deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), -moz-linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1,196,247,1);
-  background: linear-gradient(0deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1);
-  background-position: -2px -2px;
-  -webkit-background-origin: padding-box;
-  background-origin: padding-box;
-  -webkit-background-clip: border-box;
-  background-clip: border-box;
-  -webkit-background-size: 100px 100px;
-  background-size: 100px 100px;
+    -o-text-overflow: clip;
+    -ms-text-overflow: clip;
+    text-overflow: clip;
+    background: -webkit-linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), -webkit-linear-gradient(0, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1,196,247,1);
+    background: -moz-linear-gradient(0, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), -moz-linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1,196,247,1);
+    background: linear-gradient(0, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1);
+    background-position: -2px -2px;
+    -webkit-background-origin: padding-box;
+    -moz-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    -moz-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 100px 100px;
+    background-size: 100px 100px;
 }
 
 footer{

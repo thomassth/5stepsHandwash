@@ -28,24 +28,23 @@ function checkCookie() {
         if (user != "" && user != null) {
             setCookie("username", user, 365);
             setCookie("score", 0, 365);
-            setCookie("lastTime",0,365);
             alert("done")
         }
     }
 }
 
-function clickScore(){
-    if (date > Number(getCookie("lastTime"))){
-        addScore();
+function clickScore(part){
+    if (date > Number(getCookie(part))) {
+        addScore(part);
     }else {
         alert("Try tomorrow!")
     }
 }
 
-function addScore() {
+function addScore(part) {
     var scoreNow = getCookie("score");
     var scoreNew = Number(scoreNow) + 150;
     setCookie("score", scoreNew, 365);
-    setCookie("lastTime",date,365);
-    document.getElementById("demo").innerHTML = "CLICKED!";
+    setCookie(part,date,365);
+    document.getElementById("demo").innerHTML = "記得明天再來喔!";
 }

@@ -1,14 +1,15 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<title>小遊戲</title>
 	<meta charset="utf-8">
+    <script src="score.js"></script>
 	<link rel="stylesheet" tyh2e="text/css" href="main.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<!--meta http-equiv="refresh" content="0;URL='http://matchthememory.com/handwashing5steps">
 	<!-->
 </head>
-<body>
+<body  onload="checkCookie()">
 	<!-- Google Tag Manager -->
 	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PVGBZD"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -22,6 +23,7 @@
 		<a class="button" href="index.html">
 				<h1>返回</h1>
 		</a>
+        <h1 id="demo" onclick="clickScore('Game')" style="float:right">✓</h1>
 		<h1 class="title">小遊戲</h1>
 	</header>
 	<iframe src="http://matchthememory.com/handwashing5steps"></iframe>
