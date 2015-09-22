@@ -22,7 +22,6 @@ function getCookie(cname) {
 function checkCookie() {
     var user = getCookie("username");
     if (user != "") {
-        alert("Welcome again " + user);
     } else {
         user = prompt("請輸入學生姓名", "");
         if (user != "" && user != null) {
@@ -37,7 +36,7 @@ function clickScore(part){
     if (date > Number(getCookie(part))) {
         addScore(part);
     }else {
-        alert("Try tomorrow!")
+        alert("明天再來吧！")
     }
 }
 
@@ -46,7 +45,7 @@ function addScore(part) {
     var scoreNew = Number(scoreNow) + 150;
     setCookie("score", scoreNew, 365);
     setCookie(part,date,365);
-    document.getElementById("demo").innerHTML = "記得明天再來喔!";
+    document.getElementById("demo").innerHTML = "✓";
 }
 
 function showScore(){
