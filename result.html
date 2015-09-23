@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>現時成績</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="score.js"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet">
+</head>
+<body  class="gradient-pattern" onload="result()">
+	<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PVGBZD"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PVGBZD');</script>
+	<!-- End Google Tag Manager -->
+	<header>
+		<a class="button" href="index.html">
+			<h1>返回</h1>
+		</a>
+		<h1 class="title">現時成績</h1>
+	</header>
+	<div class="headSpace"></div>
+	<div class="container">
+		<p>
+			每日回來觀看重溫各種洗手5部曲的知識，然後按「完成」，就可以得到150分！<br>
+			儲高分，贏取金銀銅獎！<br>
+			小提示：每天最多可以儲到600分喔！
+		</p>
+	</div>
+	<div class="container" onload="result()">
+		<h2><table>
+			<tr>
+				<td>項目</td>
+				<td>觀看次數</td>
+			</tr>
+			<tr>
+				<td>洗手5部曲</td>
+				<td id="steps">0</td>
+			</tr>
+			<tr>
+				<td>為什麼要洗手?</td>
+				<td id="why">0</td>
+			</tr>
+			<tr>
+				<td>什麼時候要洗手?</td>
+				<td id="when">0</td>
+			</tr>
+			<tr>
+				<td>小遊戲</td>
+				<td id="game">0</td>
+			</tr>
+		</table></h2>
+	</div>
+	<div class="container" onload="reward()">
+		<h1>總成績：<span id="score">0</h1>
+	</div>
+	<div class="container" onload="result()">
+		<h2><table>
+			<tr>
+				<td>獎牌</td>
+				<td>分數</td>
+			</tr>
+			<tr>
+				<td>銅獎</td>
+				<td>4,500</td>
+			</tr>
+			<tr>
+				<td>銀獎</td>
+				<td>9,000</td>
+			</tr>
+			<tr>
+				<td>金獎</td>
+				<td>13,500</td>
+			</tr>
+			<tr>
+				<td>白金獎</td>
+				<td>18,000</td>
+			</tr>
+		</table></h2>
+	</div>
+</body>
+</html>

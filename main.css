@@ -246,3 +246,22 @@ footer{
   background: -moz-linear-gradient(bottom,rgba(255,255,255,0),rgba(255,255,255,1)); /*Fx 3.6-15*/
   background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)); /*Standard*/
 }
+
+td:nth-child(1) {
+	text-align: right;
+}
+td{
+	width:40vw;
+	border-left: 5vw solid transparent;
+	border-right: 5vw solid transparent;
+}
+tbody{
+	margin:auto
+}
+table {
+    border-collapse: collapse;
+}
+
+td{
+    border-left: 5vw solid transparent;
+}

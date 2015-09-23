@@ -43,6 +43,8 @@ function clickScore(part){
 function addScore(part) {
     var scoreNow = getCookie("score");
     var scoreNew = Number(scoreNow) + 150;
+    var count = Number(getCookie(part+"Count"));
+    setCookie(part+"Count",count+1,365);
     setCookie("score", scoreNew, 365);
     setCookie(part,date,365);
     document.getElementById("demo").innerHTML = "✓";
@@ -52,3 +54,10 @@ function showScore(){
     var now = getCookie("score");
     document.getElementById("show").innerHTML = now;
     }
+function result(){
+    document.getElementById("why").innerHTML = getCookie("whyCount");
+    document.getElementById("when").innerHTML = getCookie("whenCount");
+    document.getElementById("steps").innerHTML = getCookie("stepsCount");
+    document.getElementById("game").innerHTML = getCookie("gameCount");
+    document.getElementById("score").innerHTML = getCookie("score");
+}
