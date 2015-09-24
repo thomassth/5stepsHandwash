@@ -61,3 +61,27 @@ function result(){
     document.getElementById("game").innerHTML = getCookie("gameCount");
     document.getElementById("score").innerHTML = getCookie("score");
 }
+function medal(){
+    var x=Number(getCookie("score"));
+    switch(true){
+        case (x>=4500&&x<9000):
+        document.getElementById("medal").setAttribute("src","img/medals/bronze.svg");
+        setCookie("medal", 1, 365);
+        break;
+        case (x>=9000&&x<13500):
+        document.getElementById("medal").setAttribute("src","img/medals/silver.svg");
+        setCookie("medal", 2, 365);
+        break;
+        case (x>=13500&&x<18000):
+        document.getElementById("medal").setAttribute("src","img/medals/gold.svg");
+        setCookie("medal", 3, 365);
+        break;
+        case (x>=18000):
+        document.getElementById("medal").setAttribute("src","img/medals/platinum.svg");
+        setCookie("medal", 4, 365);
+        break;
+        default:
+
+        break;
+    }
+}

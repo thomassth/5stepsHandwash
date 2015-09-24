@@ -7,7 +7,7 @@ h1{
 h2{
 	font-size:30px;
 }
-p, ol{
+p, ol, tr{
 	font-size: 20px
 }
 .headSpace{
@@ -42,7 +42,7 @@ h1{
 h2{
 	font-size: 6vw;
 }
-p, ol{
+p, ol, tr{
 	font-size: 4vw
 }
 .headSpace{
@@ -162,7 +162,6 @@ header {
 .space-container{
 	padding:0.5rem;
 	position:relative;
-	height:25vh
 }
 
 .video-container {
@@ -264,4 +263,12 @@ table {
 
 td{
     border-left: 5vw solid transparent;
+}
+#medal{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+tr:nth-child(1){
+	font-size:300%
 }

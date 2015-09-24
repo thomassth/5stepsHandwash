@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
 			rel="stylesheet">
 </head>
-<body  class="gradient-pattern" onload="result()">
+<body  class="gradient-pattern" onload="result(), medal()">
 	<!-- Google Tag Manager -->
 	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PVGBZD"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -33,8 +33,8 @@
 			小提示：每天最多可以儲到600分喔！
 		</p>
 	</div>
-	<div class="container" onload="result()">
-		<h2><table>
+	<div class="container">
+		<table>
 			<tr>
 				<td>項目</td>
 				<td>觀看次數</td>
@@ -55,13 +55,16 @@
 				<td>小遊戲</td>
 				<td id="game">0</td>
 			</tr>
-		</table></h2>
+		</table>
 	</div>
-	<div class="container" onload="reward()">
+	<div class="container"">
 		<h1>總成績：<span id="score">0</h1>
 	</div>
-	<div class="container" onload="result()">
-		<h2><table>
+	<div class="space-container"">
+		<img id="medal" src="img/medals/none.svg">
+	</div>
+	<div class="container">
+		<table>
 			<tr>
 				<td>獎牌</td>
 				<td>分數</td>
@@ -82,7 +85,7 @@
 				<td>白金獎</td>
 				<td>18,000</td>
 			</tr>
-		</table></h2>
+		</table>
 	</div>
 </body>
 </html>
