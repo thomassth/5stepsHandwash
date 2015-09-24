@@ -172,7 +172,7 @@ header {
 	z-index: 0
 }
 
-.video-container object {
+.video-container iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -200,6 +200,9 @@ ol.num{
 }
 
 .gradient-pattern {
+    background: -webkit-linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), -webkit-linear-gradient(0deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1,196,247,1);
+    background: -moz-linear-gradient(0deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), -moz-linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1,196,247,1);
+    background: linear-gradient(0deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1);
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -210,9 +213,6 @@ ol.num{
     -o-text-overflow: clip;
     -ms-text-overflow: clip;
     text-overflow: clip;
-    background: -webkit-linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), -webkit-linear-gradient(0, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1,196,247,1);
-    background: -moz-linear-gradient(0, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), -moz-linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1,196,247,1);
-    background: linear-gradient(0, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1);
     background-position: -2px -2px;
     -webkit-background-origin: padding-box;
     -moz-background-origin: padding-box;
