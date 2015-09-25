@@ -26,27 +26,35 @@
 		<h1 class="title">為什麼要洗手?</h1>
 	</header>
 	<div class="headSpace"></div>
+	<div class="video-container">
+		<div onclick="play();" id="vidwrap" style="height:100%;width:100%;background: black url('img/whyvideo.png') no-repeat center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;overflow:hidden;cursor:pointer;"></div>
+		<script type="text/javascript">
+		function play(){document.getElementById('vidwrap').innerHTML = '<iframe width="560" height="315" src="http://www.youtube.com/embed/vQfnkh6yucA?modestbranding=1&autoplay=1&controls=0&rel=0&showinfo=0&start=41&end=64" frameborder="0"></iframe>';}
+		</script>
+	</div></div>
 	<div class="container">
-		<img src="img/why.png">
 		<h2>
 			為什麼我們要洗手?
 		</h2>
+		<div>
+		<img src="img/why.png">
 		<p>
 			研究顯示，正確洗手是<span class="highlight">最有效防止傳染病傳播</span>的方法。
 			若雙手被病原體污染，尤其是接觸過糞便或呼吸道分泌物而沒有洗淨，便會很容易把疾病如痢疾、霍亂、肝炎、流行性感冒、手足口病等傳播。
 			用梘液徹底洗手<span class="highlight">最少二十秒</span>能有效防止感染及傳播傳染病。
-		</p>
+		</p></div>
 	</div>
 	<div class="container">
 		<h2>
 			為什麼我們要用梘液洗手?
 		</h2>
+		<div>
 		<img src="img/soap2.png">
 		<p>
 			用梘液洗手十分重要，如不用梘液，雙手表面便不夠清潔。
 			使用梘液時，應<span class="highlight">擦出足夠泡沬</span>，才能把雙手表面的油分和微生物清洗乾淨。
 			應確保手掌、手背、拇指四周、指甲邊及指間清潔。
-		</p>
+		</p></div>
 	</div>
 	<div class="container">
 		<h2>
@@ -59,6 +67,7 @@
 	</div>
     <div class="space-container">
         <h1 id="demo" onclick="clickScore('why')">完成</h1>
+		<img id="bottomPic" src="img/hand.png">
     </div>
 </body>
 </html>
