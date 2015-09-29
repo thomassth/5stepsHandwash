@@ -264,9 +264,7 @@ td{
 	margin-right: auto;
 	display: block;
 }
-tr:nth-child(1){
-	font-size:300%
-}
+
 #vidwrap{
 	height: 100%; 
 	width: 100%; 
