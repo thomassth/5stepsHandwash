@@ -53,7 +53,10 @@ function addScore(part) {
 function showScore(){
     var now = getCookie("score");
     document.getElementById("show").innerHTML = now;
+    if (date==Number(getCookie('game'))&&date==Number(getCookie('when'))&&date==Number(getCookie('why'))&&date==Number(getCookie('steps'))){
+        document.getElementById("show").innerHTML = now+"<p>儲滿了今天的分數！繼續努力吧:)</p>";
     }
+   }
 function result(){
     document.getElementById("why").innerHTML = getCookie("whyCount");
     document.getElementById("when").innerHTML = getCookie("whenCount");
