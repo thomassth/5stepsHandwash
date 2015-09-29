@@ -27,7 +27,7 @@ p, ol, tr{
 	margin: 1rem auto;
 }
 .container img{
-	height:60px;
+	height:80px;
 }
 footer{
 
@@ -59,7 +59,7 @@ p, ol, tr{
 	margin:1rem
 }
 .container img{
-	height:6.5vw;
+	height:8vw;
 }
 footer{
 
@@ -120,7 +120,7 @@ p{
 
 .container img{
 	vertical-align: text-top;
-	float:left;
+	float:right;
 	width:auto;
 }
 .card img{
@@ -266,4 +266,18 @@ td{
 }
 tr:nth-child(1){
 	font-size:300%
+}
+#vidwrap{
+	height: 100%; 
+	width: 100%; 
+	background-color: #000;
+	background-image: url("img/whyvideo.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: cover;
+	cursor: pointer; 
+	overflow: hidden;
 }

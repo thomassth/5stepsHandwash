@@ -27,17 +27,14 @@
 	</header>
 	<div class="headSpace"></div>
 	<div class="video-container">
-		<div onclick="play();" id="vidwrap" style="height:100%;width:100%;background: black url('img/whyvideo.png') no-repeat center;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;overflow:hidden;cursor:pointer;"></div>
-		<script type="text/javascript">
-		function play(){document.getElementById('vidwrap').innerHTML = '<iframe width="560" height="315" src="http://www.youtube.com/embed/vQfnkh6yucA?modestbranding=1&autoplay=1&controls=0&rel=0&showinfo=0&start=41&end=64" frameborder="0"></iframe>';}
-		</script>
-	</div></div>
+		<iframe width="560" height="315" src="http://www.youtube.com/embed/vQfnkh6yucA?rel=0&showinfo=0&autohide=1&modestbranding=1&controls=0" frameborder="0" allowfullscreen></iframe>
+	</div>
 	<div class="container">
 		<h2>
 			為什麼我們要洗手?
 		</h2>
 		<div>
-		<img src="img/why.png">
+		<img src="img/why.png" onload="whyVideo()">
 		<p>
 			研究顯示，正確洗手是<span class="highlight">最有效防止傳染病傳播</span>的方法。
 			若雙手被病原體污染，尤其是接觸過糞便或呼吸道分泌物而沒有洗淨，便會很容易把疾病如痢疾、霍亂、肝炎、流行性感冒、手足口病等傳播。
