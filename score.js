@@ -66,18 +66,22 @@ function medal(){
     switch(true){
         case (x>=4500&&x<9000):
         document.getElementById("medal").setAttribute("src","img/medals/bronze.svg");
+        document.getElementById("medalTag").innerHTML="銅獎";
         setCookie("medal", 1, 365);
         break;
         case (x>=9000&&x<13500):
         document.getElementById("medal").setAttribute("src","img/medals/silver.svg");
+        document.getElementById("medalTag").innerHTML="銀獎";
         setCookie("medal", 2, 365);
         break;
         case (x>=13500&&x<18000):
         document.getElementById("medal").setAttribute("src","img/medals/gold.svg");
+        document.getElementById("medalTag").innerHTML="金獎";
         setCookie("medal", 3, 365);
         break;
         case (x>=18000):
         document.getElementById("medal").setAttribute("src","img/medals/platinum.svg");
+        document.getElementById("medalTag").innerHTML="白金獎";
         setCookie("medal", 4, 365);
         break;
         default:
