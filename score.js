@@ -27,7 +27,7 @@ function checkCookie() {
         if (user != "" && user != null) {
             setCookie("username", user, 365);
             setCookie("score", 0, 365);
-            alert("done")
+            alert("每日回來觀看重溫各種洗手5部曲的知識，然後按「完成」，就可以得到150分！儲滿14,400分或以上就可以獲得輕便急救包乙個！")
         }
     }
 }
