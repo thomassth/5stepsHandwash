@@ -109,4 +109,4 @@ function medal(){
 }
 function whyVideo(){
     	document.getElementsByClassName("ytp-thumbnail-overlay ytp-cued-thumbnail-overlay").setAttribute="style",'background-image: url("https://i.ytimg.com/vi/sOLgRQ74vHw/hqdefault.jpg");';
-}
+};
