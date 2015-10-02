@@ -54,6 +54,7 @@ function clickScore(part){
     }
 
 }
+}
 
 function addScore(part) {
     var scoreNow = getCookie("score");
@@ -107,6 +108,3 @@ function medal(){
         break;
     }
 }
-function whyVideo(){
-    	document.getElementsByClassName("ytp-thumbnail-overlay ytp-cued-thumbnail-overlay").setAttribute="style",'background-image: url("https://i.ytimg.com/vi/sOLgRQ74vHw/hqdefault.jpg");';
-};
