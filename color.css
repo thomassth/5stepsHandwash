@@ -1,0 +1,97 @@
+/*Universal dimensions*/
+body {
+    background-color: #fafafa;
+}
+
+a{
+	text-decoration: none;
+	color: #0000EE
+}
+
+header {
+	color: white;
+	background-color: #D32F2F;
+}
+
+.headSpace{
+	position:relative;
+	width:100%;
+	z-index:-1
+}
+
+.container{
+	background-color: white;
+	box-shadow: 0 0 5px #888888;
+}
+
+.card{
+	background-color: white;
+	box-shadow: 0 0 5px #888888;
+}
+
+.button{
+	background-color: #A02337;
+}
+
+
+.highlight{
+	background-color: yellow
+}
+
+.gradient-pattern {
+    background: -webkit-linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), -webkit-linear-gradient(0deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1,196,247,1);
+    background: -moz-linear-gradient(0deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), -moz-linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1,196,247,1);
+    background: linear-gradient(0deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), linear-gradient(90deg, rgba(194,236,235,1) 4px, rgba(0,0,0,0) 2px), rgba(223,244,243,1);
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    /*width: 320px;
+  height: 320px;
+  border: none;
+  color: rgba(255,255,255,1);*/
+    -o-text-overflow: clip;
+    -ms-text-overflow: clip;
+    text-overflow: clip;
+    background-position: -2px -2px;
+    -webkit-background-origin: padding-box;
+    -moz-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    -moz-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 100px 100px;
+    background-size: 100px 100px;
+}
+
+footer{
+	background-color: white;
+}
+
+#logo{
+	color:darkred
+}
+
+#grad {
+  background: -webkit-linear-gradient(top,rgba(255,255,255,0),rgba(255,255,255,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom,rgba(255,255,255,0),rgba(255,255,255,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom,rgba(255,255,255,0),rgba(255,255,255,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)); /*Standard*/
+}
+
+#vidwrap{
+	height: 100%; 
+	width: 100%; 
+	background-color: #000;
+	background-image: url("img/whyvideo.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: cover;
+	cursor: pointer; 
+	overflow: hidden;
+}
+#demo{
+	color:#00E
+}
