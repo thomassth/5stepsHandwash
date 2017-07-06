@@ -1,0 +1,403 @@
+[
+    {
+    "question": "最有效預防傳染病傳播的方法是什麼？",
+    "choices": ["洗手", "吃蔬菜", "準時上學"],
+    "correctAnswer": 0
+  }, {
+    "question": "什麼時候應該要洗手？",
+    "choices": ["接觸眼、鼻及口前", "接觸動物或家禽後", "觸摸過公共物件後", "以上皆是"],
+    "correctAnswer": 3
+  }, {
+    "question": "如果雙手沒有明顯污漬的話，可以用含70-80%酒精的搓手液消毒雙手嗎？",
+    "choices": ["可以", "不可以"],
+    "correctAnswer": 0
+  }, {
+    "question": "「洗手5部曲」第三步是清洗手的什麼部分？",
+    "choices": ["指背", "手腕"],
+    "correctAnswer": 0
+  }, {
+    "question": "抹好皂液後，最少使用多少時間搓手？",
+    "choices": ["10秒", "20秒", "30秒"],
+    "correctAnswer": 1
+  }, {
+    "question": "「洗手5部曲」第一步是清洗手的什麼部分？",
+    "choices": ["手掌和指隙", "指尖", "手腕"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "「洗手5部曲」第二步是清洗手的什麼部分？",
+    "choices": ["手臂", "手背和指隙", "指尖"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "「洗手5部曲」第四步是清洗手的什麼部分？",
+    "choices": ["指尖和掌心","手臂","手掌和指隙"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "「洗手5部曲」第五步是清洗手的什麼部分？",
+    "choices": ["拇指", "手臂", "手掌和指隙"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "洗手時，雙手弄濕後應該：",
+    "choices": ["進行「洗手5部曲」","均勻的抹上皂液", "關水龍頭"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "洗手時。抹好皂液後應該：",
+    "choices": ["進行「洗手5部曲」", "立即沖洗雙手", "離開洗手間"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "洗手時，進行「洗手5部曲」後應該：",
+    "choices": ["離開洗手間", "用清水清洗雙手", "用紙巾抹手"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "什麼時候可以用酒精搓手液消毒雙手？",
+    "choices": ["當雙手沒有明顯污漬時", "任何時候", "忙碌的時候"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "抹手的毛巾應該多久清洗一次？",
+    "choices": ["1個月", "1星期", "1日"],
+    "correctAnswer": 2  }, {
+  }, {
+    "question": "可以和朋友共用毛巾嗎？",
+    "choices": ["可以","不可以"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "抹手紙用完後應該：",
+    "choices": ["隨地拋", "拿回課室", "掉進垃圾桶"],
+    "correctAnswer": 2  }, {
+  }, {
+    "question": "雙手洗乾淨後，應該直接用手關上水龍頭。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "雙手洗乾淨後，先用抹手紙包裹著水龍頭，才關上水龍頭。",
+    "choices": ["正確", "不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "雙手洗乾淨後，可以潑水沖洗水龍頭。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "雙手洗乾淨後，不應該用乾手機吹乾雙手。",
+    "choices": ["正確", "不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "「洗手5部曲」每個動作最少做多首次？",
+    "choices": ["1次", "3次","5次"],
+    "correctAnswer": 2  }, {
+  }, {
+    "question": "正確洗手可以預防傳播什麼疾病？",
+    "choices": ["手足口病", "霍亂", "流行性感冒", "以上皆是"],
+    "correctAnswer": 3  }, {
+  }, {
+    "question": "正確洗手可以預防傳播流行性感冒。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "正確洗手是最有效防止傳染病傳播的方法",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "接觸過什麼後沒有洗淨雙手，就會容易傳播疾病？",
+    "choices": ["糞便或呼吸道分泌物", "食物", "酒精搓手液"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "正確洗手可以預防傳播手足口病。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "只用清水洗手，雙手也很清潔。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "皂液泡沫可以將手表面的油分和微生物清洗乾淨。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "使用酒精搓手液時，先將酒精倒在什麼地方？",
+    "choices": ["手背", "掌心", "指尖"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "酒精搓手液應含有多少成分酒精？",
+    "choices": ["14-20%", "70-80%", "95-100%"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "使用酒精搓手液時，要揉擦雙手最少多久？",
+    "choices": ["10秒", "20秒", "30秒"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "使用酒精搓手液時，如何知道已經消毒好雙手？",
+    "choices": ["雙手乾透", "過了20秒", "雙手沒有明顯污漬"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "打噴嚏後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "打噴嚏後，可以使用酒精搓手液潔手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "處理食物及進食前應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "咳嗽後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "如廁後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "幫弟弟妹妹換尿片後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "扔掉可能有鼻涕的紙巾後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "扔掉有鼻血的紙巾後不需要洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "到醫院探望朋友後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "探訪老人院後不需要洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "探訪老人院前不需要洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "與農場的綿羊玩後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "在街市摸過公雞後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "在公園碰到白鴿後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "眼睛太癢時，先揉眼然後洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "揉眼前應該先洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "為免什麼進入身體，接觸眼、鼻、口前應先洗手？",
+    "choices": ["病毒","細菌", "骯髒的東西", "以上皆是"],
+    "correctAnswer": 3  }, {
+  }, {
+    "question": "觸摸過公共物件後要洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "觸摸過電梯的扶手後要洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "觸摸過升降機按鈕後要洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "觸摸過門柄後要洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "公共物件因為多人接觸，容易積聚細菌。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "挖鼻孔前不需要洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "挖鼻孔後要洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "病菌很容易從那些地方進入體內？",
+    "choices": ["眼","鼻的黏膜", "口", "以上皆是"],
+    "correctAnswer": 3  }, {
+  },{
+    "question": "最有效預防傳染病傳播的方法是什麼？",
+    "choices": ["洗手", "吃蔬菜", "準時上學"],
+    "correctAnswer": 0
+  }, {
+    "question": "什麼時候應該要洗手？",
+    "choices": ["接觸眼、鼻及口前", "接觸動物或家禽後", "觸摸過公共物件後", "以上皆是"],
+    "correctAnswer": 3
+  }, {
+    "question": "如果雙手沒有明顯污漬的話，可以用含70-80%酒精的搓手液消毒雙手嗎？",
+    "choices": ["可以", "不可以"],
+    "correctAnswer": 0
+  }, {
+    "question": "「洗手5部曲」第三步是清洗手的什麼部分？",
+    "choices": ["指背", "手腕"],
+    "correctAnswer": 0
+  }, {
+    "question": "抹好皂液後，最少使用多少時間搓手？",
+    "choices": ["10秒", "20秒", "30秒"],
+    "correctAnswer": 1
+  }, {
+    "question": "「洗手5部曲」第一步是清洗手的什麼部分？",
+    "choices": ["手掌和指隙", "指尖", "手腕"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "「洗手5部曲」第二步是清洗手的什麼部分？",
+    "choices": ["手臂", "手背和指隙", "指尖"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "「洗手5部曲」第四步是清洗手的什麼部分？",
+    "choices": ["指尖和掌心","手臂","手掌和指隙"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "「洗手5部曲」第五步是清洗手的什麼部分？",
+    "choices": ["拇指", "手臂", "手掌和指隙"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "洗手時，雙手弄濕後應該：",
+    "choices": ["進行「洗手5部曲」","均勻的抹上皂液", "關水龍頭"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "洗手時。抹好皂液後應該：",
+    "choices": ["進行「洗手5部曲」", "立即沖洗雙手", "離開洗手間"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "洗手時，進行「洗手5部曲」後應該：",
+    "choices": ["離開洗手間", "用清水清洗雙手", "用紙巾抹手"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "什麼時候可以用酒精搓手液消毒雙手？",
+    "choices": ["當雙手沒有明顯污漬時", "任何時候", "忙碌的時候"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "抹手的毛巾應該多久清洗一次？",
+    "choices": ["1個月", "1星期", "1日"],
+    "correctAnswer": 2  }, {
+  }, {
+    "question": "可以和朋友共用毛巾嗎？",
+    "choices": ["可以","不可以"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "抹手紙用完後應該：",
+    "choices": ["隨地拋", "拿回課室", "掉進垃圾桶"],
+    "correctAnswer": 2  }, {
+  }, {
+    "question": "雙手洗乾淨後，應該直接用手關上水龍頭。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "雙手洗乾淨後，先用抹手紙包裹著水龍頭，才關上水龍頭。",
+    "choices": ["正確", "不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "雙手洗乾淨後，可以潑水沖洗水龍頭。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "雙手洗乾淨後，不應該用乾手機吹乾雙手。",
+    "choices": ["正確", "不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "「洗手5部曲」每個動作最少做多首次？",
+    "choices": ["1次", "3次","5次"],
+    "correctAnswer": 2  }, {
+  }, {
+    "question": "正確洗手可以預防傳播什麼疾病？",
+    "choices": ["手足口病", "霍亂", "流行性感冒", "以上皆是"],
+    "correctAnswer": 3  }, {
+  }, {
+    "question": "正確洗手可以預防傳播流行性感冒。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "正確洗手是最有效防止傳染病傳播的方法",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "接觸過什麼後沒有洗淨雙手，就會容易傳播疾病？",
+    "choices": ["糞便或呼吸道分泌物", "食物", "酒精搓手液"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "正確洗手可以預防傳播手足口病。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "只用清水洗手，雙手也很清潔。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "皂液泡沫可以將手表面的油分和微生物清洗乾淨。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "使用酒精搓手液時，先將酒精倒在什麼地方？",
+    "choices": ["手背", "掌心", "指尖"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "酒精搓手液應含有多少成分酒精？",
+    "choices": ["14-20%", "70-80%", "95-100%"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "使用酒精搓手液時，要揉擦雙手最少多久？",
+    "choices": ["10秒", "20秒", "30秒"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "使用酒精搓手液時，如何知道已經消毒好雙手？",
+    "choices": ["雙手乾透", "過了20秒", "雙手沒有明顯污漬"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "打噴嚏後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "打噴嚏後，可以使用酒精搓手液潔手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "處理食物及進食前應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "咳嗽後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "如廁後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "幫弟弟妹妹換尿片後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "扔掉可能有鼻涕的紙巾後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "扔掉有鼻血的紙巾後不需要洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "到醫院探望朋友後應該洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 0  }, {
+  }, {
+    "question": "探訪老人院後不需要洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }, {
+    "question": "探訪老人院前不需要洗手。",
+    "choices": ["正確","不正確"],
+    "correctAnswer": 1  }, {
+  }
+]
