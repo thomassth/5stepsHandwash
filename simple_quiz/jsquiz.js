@@ -1,5 +1,5 @@
 (function() {
-  var questions = $.getJSON(questions.json);
+  var questions = $.getJSON('questions.json');
   
   var questionCounter = 0; //Tracks question number
   var selections = []; //Array containing user choices
